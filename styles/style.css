@@ -1,0 +1,9 @@
+:root {
+  --green-color: #596D48;
+  --border-color: #E5E7EB;
+  --focus-color: #154b9c;
+}
+
+.section-sidebar {
+  background-image: url("../assets/image-sidebar.jpg");
+}
