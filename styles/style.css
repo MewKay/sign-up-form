@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap');
+
+@font-face {
+  font-family: "Norse Bold";
+  src: url(../fonts/Norse-Bold.otf);
+}
+
 :root {
   --green-color: #596D48;
   --border-color: #E5E7EB;
   --focus-color: #154b9c;
 }
+
 
 .section-sidebar {
   background-image: url("../assets/image-sidebar.jpg");
