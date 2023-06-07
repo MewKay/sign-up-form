@@ -19,14 +19,25 @@ main {
 
 .section-sidebar {
   background-image: url("../assets/image-sidebar.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .logo-container {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   font-family: "Norse Bold";
-  font-size: 5rem;
+  font-size: 4rem;
+  padding: 1rem 8rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 8rem;
+}
+
+img {
+  width: 1em;
 }
 
 
