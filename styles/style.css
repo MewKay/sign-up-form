@@ -11,7 +11,22 @@
   --focus-color: #154b9c;
 }
 
+main {
+  font-family: "Roboto",Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+}
 
 .section-sidebar {
   background-image: url("../assets/image-sidebar.jpg");
 }
+
+.logo-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: "Norse Bold";
+  font-size: 5rem;
+  display: flex;
+}
+
+
