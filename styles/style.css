@@ -7,7 +7,7 @@
 
 :root {
   --green-color: #596D48;
-  --border-color: #E5E7EB;
+  --grey-color: #E5E7EB;
   --focus-color: #154b9c;
 }
 
@@ -24,11 +24,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 3;
+  flex: 2;
 }
 
 .section-content {
-  flex: 5;
+  flex: 4;
 }
 
 .logo-container {
@@ -60,4 +60,22 @@ img {
   padding: 1rem;
 }
 
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey-color);
+  justify-content: center;
+}
 
+.presentation-text {
+  flex: 1;
+}
+
+.section-user-input {
+  flex: 1;
+}
+
+.section-submit {
+  flex: 1;
+}
