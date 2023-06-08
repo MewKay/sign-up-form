@@ -9,11 +9,18 @@
   --green-color: #596D48;
   --grey-color: #E5E7EB;
   --focus-color: #154b9c;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto",Helvetica, sans-serif;
+  font-size: 1.3rem;
+  min-height: 100vh;
+  display: flex;
 }
 
 main {
-  font-family: "Roboto",Helvetica, sans-serif;
-  height: 100vh;
+  flex: 1;
   display: flex;
 }
 
