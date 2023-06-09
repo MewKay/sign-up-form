@@ -97,7 +97,6 @@ form {
   font-weight: bold;
   padding: 1rem;
   padding-left: 3rem;
-  margin-bottom: 20px;
   box-shadow: 0px 5px 5px #b9b8b8;
 }
 
@@ -136,4 +135,20 @@ input:invalid {
 
 .section-submit {
   flex: 2;
+  padding-left: 3rem;
+  padding-top: 2rem;
 }
+
+button {
+  background-color: var(--green-color);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  margin-bottom: 3rem;
+  box-shadow: 0px 2px 5px grey;
+}
+
+
