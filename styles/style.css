@@ -36,18 +36,18 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 2;
+  flex: 3;
 }
 
 .section-content {
-  flex: 4;
+  flex: 5;
 }
 
 .logo-container {
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
   font-family: "Norse Bold";
-  font-size: 4rem;
+  font-size: 5rem;
   padding: 20px 0;
   width: 100%;
   margin: auto;
@@ -55,11 +55,12 @@ main {
   align-items: center;
   justify-content: center;
   position: relative;
-  top: -7rem;
+  top: -14rem;
 }
 
 img {
-  width: 1em;
+  width: 1.5em;
+  margin: 0px .5rem;
 }
 
 .image-credit,
@@ -85,7 +86,10 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 4rem 3rem;
+  padding-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 12rem;
+  margin-top: 10rem;
   gap: 2rem;
   font-weight: bold;
 }
@@ -97,12 +101,13 @@ form {
   font-weight: bold;
   padding: 1rem;
   padding-left: 3rem;
+  padding-right: 8rem;
   box-shadow: 0px 5px 5px #b9b8b8;
 }
 
 .input-container {
   letter-spacing: .1rem;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -112,7 +117,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-bottom: 1rem; 
+  margin-bottom: 2rem; 
   margin-right: 2.5rem;
 }
 
@@ -136,7 +141,8 @@ input:invalid {
 .section-submit {
   flex: 2;
   padding-left: 3rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
+  margin-bottom: 15rem;
 }
 
 button {
